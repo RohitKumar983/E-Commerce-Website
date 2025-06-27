@@ -1,0 +1,139 @@
+/* style2.css or style.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  /* This will space out elements vertically */
+}
+
+.container {
+  flex-grow: 1;  /* This ensures the container expands to take up available space */
+}
+body
+{
+    margin: 0;
+    padding: 100px;
+    font-family: sans-serif;
+background-position: center; 
+background-size: cover;
+background-color: blue;
+}
+
+.sign-form
+{
+width: 300px;
+box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+background: lightskyblue;
+padding: 20px; 
+margin: 8% auto 0;
+text-align: center;
+margin-top: 20px;
+
+}
+.sign-form h1
+{
+color: blue;
+margin-bottom: 30px;
+
+}
+.input-box
+{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+.button {
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    text-transform: capitalize;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+  }
+  footer {
+    width: 100%;
+    background: var(--buttonColor);
+    color: var(--backgroundColor);
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    margin-top: 6.4rem;
+  }
+  
+  .footer-container .content_1 img {
+    height: auto;
+    width: 15rem;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 6rem 0;
+  }
+  
+  .footer-container h4 {
+    color: var(--white);
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.5rem;
+    font-size: 1.8rem;
+  }
+  
+  .footer-container a {
+    display: block;
+    text-decoration: none;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+  }
+  
+  .footer-container .content_1 p,
+  .footer-container .content_4 p {
+    color: #cccccc;
+    margin: 2.5rem 0;
+    font-size: 1.4rem;
+  }
+  
+  .footer-container .content_4 input[type="email"] {
+    background-color: var(--textColor);
+    border: none;
+    color: var(--backgroundColor);
+    outline: none;
+    padding: 1.4rem 0.8rem;
+    width: 100%;
+  }
+  
+  .footer-container .content_4 .f-mail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-container .content_4 .bx {
+    color: var(--white);
+  }
+  
+  .f-design {
+    width: 100%;
+    color: var(--white);
+    text-align: center;
+  }
+  
+  .f-design .f-design-txt {
+    border-top: 1px solid var(--secondaryColor);
+    padding: 1.6rem 0;
+    color: var(--secondaryColor);
+  }
